@@ -10,7 +10,7 @@ import {
 function App() {
   return (
     <div className="App">
-      
+      <NavBar />
       <Routes>
         <Route path="/" element={<Landing />} />
         <Route path="/Products" element={<Products/>}/>

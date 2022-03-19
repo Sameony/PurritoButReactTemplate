@@ -1,31 +1,31 @@
 import React from "react";
-
+import '../App.css';
 const NavBar = () =>
 {
     return (
-        <nav class="navBar shadows">
+        <nav className="navBar shadows">
         <a href="/index.html">
-            <h1 class="pd-x-md mg-x-md fs-xxl">Purritos</h1>
+            <h1 className="pd-x-md mg-x-md fs-xxl">Purritos</h1>
         </a>
-        <div class="boxInput pd-sm">
-            <label for="name" class="mg-x-sm fs-lg"><i class="fa-solid fa-magnifying-glass"></i></label>
-            <input type="text" id="name" class="searchBox pd-sm" />
+        <div className="boxInput pd-sm">
+            <label for="name" className="mg-x-sm fs-lg"><i className="fas fa-search"></i></label>
+            <input type="text" id="name" className="searchBox pd-sm" />
         </div>
 
-        <div class="rightNav">
-            <a href="/Templates/loginSignup.html" class="btn btn-primary">Signup</a>
-            <div class="badgeWrap mg-md">
+        <div className="rightNav">
+            <a href="/Templates/loginSignup.html" className="btn btn-primary">Signup</a>
+            <div className="badgeWrap mg-md">
                 <a href="/Templates/cart.html">
-                    <div class="fs-xl fas fa-shopping-cart"></div>
+                    <div className="fs-xl fas fa-shopping-cart"></div>
                 </a>
-                <div class="fs-sm badge badgeTopRight badgeRed">2
+                <div className="fs-sm badge badgeTopRight badgeRed">2
                 </div>
             </div>
-            <div class="badgeWrap mg-md">
+            <div className="badgeWrap mg-md">
                 <a href="/Templates/wishlist.html">
-                    <div class="fs-xl fa-solid fa-heart"></div>
+                    <div className="fs-xl fas fa-heart"></div>
                 </a>
-                <div class="fs-sm badge badgeTopRight badgeRed">9+
+                <div className="fs-sm badge badgeTopRight badgeRed">9+
                 </div>
             </div>
         </div>
