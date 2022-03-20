@@ -1,60 +1,8 @@
 @import url("https://mirinda-mewi.netlify.app/styles/main.css");
-
+@import url(/src/Styles/main.css);
 * {
   box-sizing: border-box;
 }
-/* Navigation */
-.navBar {
-  background-color: var(--darc);
-  color: var(--snow);
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.navBar h1 {
-  cursor: pointer;
-}
-.navBar .badgeWrap {
-  cursor: pointer;
-}
-.rightNav {
-  display: flex;
-}
-.rightNav .badgeWrap {
-  padding: 0.2rem;
-}
-.rightNav .btn {
-  align-self: center;
-}
-.boxInput {
-  width: 32rem;
-  display: flex;
-  align-items: center;
-}
-.navBar .btn {
-  background-color: var(--primary);
-  border-color: var(--primary);
-  color: var(--snow);
-}
-.navBar .btn:hover {
-  background-color: var(--dark-prim);
-  border-color: var(--dark-prim);
-}
-.searchBox {
-  width: 80%;
-}
-
-/* Scrollbar */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 5px;
-  background-color: #ffffff;
-}
-
-::-webkit-scrollbar-track {
-  background: var(--snow);
-}
-
-::-webkit-scrollbar-thumb {
-  background: var(--gray);
+body {
+  background-color: var(--blue-gray);
 }
