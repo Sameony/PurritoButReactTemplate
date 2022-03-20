@@ -1,7 +1,5 @@
 .wishWrap {
   background-color: var(--blue-gray);
-  overflow: auto;
-  height: calc(100vh - 4.8rem);
 }
 .wishWrap h1 {
   color: var(--snow);

@@ -4,7 +4,7 @@ import '../App.css';
 const NavBar = () =>
 {
     return (
-        <nav className="navBar shadows">
+        <nav className="navBar">
         <Link to="/">
             <h1 className="pd-x-md mg-x-md fs-xxl">Purritos</h1>
         </Link>
