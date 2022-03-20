@@ -1,12 +1,12 @@
 import React from "react";
-
-const FeaturedCard = () => {
+import { Link } from "react-router-dom";
+const FeaturedCard = ({heading, button}) => {
   return (
-    <div class="miniHero m2 pd-sm">
-      <h3 class="mg-b-sm">40% off on red blankets!!</h3>
-      <a href="/Templates/products.html" class="mg-y-sm btn btn-primary">
-        Check it out!
-      </a>
+    <div className="miniHero m2 pd-sm">
+      <h3 className="mg-b-md">{heading}</h3>
+      <Link to="/products" className="mg-y-sm btn btn-primary">
+        {button}
+      </Link>
     </div>
   );
 };
