@@ -9,7 +9,7 @@ const Filters = () => {
             </div>
             <div className="priceSlide">
                 <h3>Price</h3>
-                <input type="range" min="999" max="49999" value="4500" className="slider mg-sm" id="myRange" />
+                <input type="range" min="999" max="49999" className="slider mg-sm" id="myRange" />
                 <div className="labels flex flex-spc-arnd">
                     <p>999</p>
                     <p>25000</p>
@@ -28,13 +28,13 @@ const Filters = () => {
             <div className="mg-y-md">
                 <h3>Ratings</h3>
                 <input className="mg-sm" type="radio" name="Ratings" id="fourStar" />
-                <label for="fourStar">4 <i className="fa-solid fa-star"></i> and up</label> <br />
+                <label for="fourStar">4 <i className="fas fa-star"></i> and up</label> <br />
                 <input className="mg-sm" type="radio" name="Ratings" id="threeStar" />
-                <label for="threeStar">3 <i className="fa-solid fa-star"></i> and up</label> <br />
+                <label for="threeStar">3 <i className="fas fa-star"></i> and up</label> <br />
                 <input className="mg-sm" type="radio" name="Ratings" id="twoStar" />
-                <label for="twoStar">2 <i className="fa-solid fa-star"></i> and up</label> <br />
+                <label for="twoStar">2 <i className="fas fa-star"></i> and up</label> <br />
                 <input className="mg-sm" type="radio" name="Ratings" id="oneStar" />
-                <label for="oneStar">1 &nbsp;<i className="fa-solid fa-star"></i> and up</label> <br />
+                <label for="oneStar">1 &nbsp;<i className="fas fa-star"></i> and up</label> <br />
             </div>
             <div className="mg-y-md">
                 <h3>Sort By</h3>
